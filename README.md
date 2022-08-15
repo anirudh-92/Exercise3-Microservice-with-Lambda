@@ -15,6 +15,17 @@ To create API and Lambda function:
   - Security – Open.
   - Created the function: lambda-microservice.
 
+To create a DynamoDB table
+- Create a table with the following settings.
+- Table name – mytable-stream
+- Primary key – id (string)
+
+To enable streams
+- Choose Tables.
+- Choose the lambda-dynamodb-stream table.
+- Under Exports and streams, choose DynamoDB stream details.
+- Choose Enable stream.
+
 Test:
 
 
